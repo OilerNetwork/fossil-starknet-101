@@ -1,0 +1,29 @@
+[
+    {
+        "inputs": [],
+        "name": "twap",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "computation_id",
+                "type": "felt"
+            },
+            {
+                "name": "twap",
+                "type": "felt"
+            }
+        ],
+        "name": "twap_callback",
+        "outputs": [],
+        "type": "function"
+    }
+]
